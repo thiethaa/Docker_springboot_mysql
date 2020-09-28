@@ -29,6 +29,7 @@ Dockerize Springboot+MySQL App
                       --network test_net 
                       -d docker_app_name.jar:latest
 8. check if the server is running on the port 9090 :  $ docker logs <container_id> -f
+9. Stop the container : $    docker stop <container_id>
 
   
     
